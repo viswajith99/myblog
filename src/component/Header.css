@@ -1,0 +1,38 @@
+.space-between{
+    justify-content: space-between;
+    gap: 60px;
+   
+}
+.padlft{
+    /* padding-left: 40px; */
+}
+
+/* Header.css */
+
+.navbar {
+    padding: 1rem 1.5rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  
+  .navbar-nav .nav-link {
+    margin-left: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-nav {
+      text-align: center;
+      flex-direction: column;
+      width: 100%;
+    }
+    .navbar-nav .nav-link {
+      margin-left: 0;
+      margin-bottom: 0.5rem;
+    }
+    .navbar-collapse {
+      justify-content: center;
+    }
+  }
+  

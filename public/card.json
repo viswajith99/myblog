@@ -1,0 +1,60 @@
+{
+  "cardData": [
+    {
+      "title": "MongoDB",
+      "description": "MongoDB is a NoSQL database that uses a document-oriented data model designed for scalability, high performance, and high availability.",
+      "image": "./mongodbimg.png",
+      "concepts": [
+        "Document storage",
+        "Indexing",
+        "Replication",
+        "Sharding",
+        "Aggregation",
+        "MapReduce",
+        "Schema-less design"
+      ]
+    },
+    {
+      "title": "React.js",
+      "description": "React.js is a JavaScript library for building user interfaces, developed by Facebook, that uses a virtual DOM to minimize direct manipulation of the real DOM.",
+      "image": "./reactimg.png",
+      "concepts": [
+        "Component-based architecture",
+        "Virtual DOM",
+        "Declarative UI",
+        "One-way data binding",
+        "State management",
+        "JSX syntax",
+        "Hooks"
+      ]
+    },
+    {
+      "title": "Node.js",
+      "description": "Node.js is a JavaScript runtime built on Chrome's V8 engine that allows developers to run JavaScript on the server side for scalable and high-performance web applications.",
+      "image": "./nodejs.png",
+      "concepts": [
+        "Server-side scripting",
+        "Non-blocking I/O",
+        "Event-driven architecture",
+        "NPM (Node Package Manager)",
+        "Asynchronous programming",
+        "Microservices",
+        "RESTful APIs"
+      ]
+    },
+    {
+      "title": "Express.js",
+      "description": "Express.js is a minimal and flexible Node.js web application framework that provides features for building single-page, multi-page, and hybrid web applications quickly.",
+      "image": "./expressjs.png",
+      "concepts": [
+        "Routing",
+        "Middleware",
+        "Template engines",
+        "Error handling",
+        "Generating RESTful APIs",
+        "Serving static files",
+        "Integration with databases"
+      ]
+    }
+  ]
+}
