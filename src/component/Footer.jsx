@@ -26,9 +26,12 @@ const Footer = () => {
           <Col>
             <p className="text-p">
               Follow us on  <a href="https://twitter.com/example" target="_blank" rel="noopener noreferrer"> Twitter</a>, 
-              <a href="https://www.instagram.com/example" target="_blank" rel="noopener noreferrer"> Instagram</a>, 
-              <a href="https://www.facebook.com/example" target="_blank" rel="noopener noreferrer"> Facebook</a>, 
-              <a href="https://www.linkedin.com/in/example" target="_blank" rel="noopener noreferrer"> LinkedIn</a>
+              <a href="https://www.instagram.com/v_i_s_w_a___jith_111" target="_blank" rel="noopener noreferrer"> Instagram</a>, 
+              <a href="https://www.facebook.com/profile.php?id=100087957264398" target="_blank" rel="noopener noreferrer"> Facebook</a>, 
+              <a href="https://linkedin.com/in/viswajith-haridas-a21876245" target="_blank" rel="noopener noreferrer"> LinkedIn</a>
+              <a href="https://wa.me/9633266549" target="_blank" rel="noopener noreferrer"> Whatsapp</a>
+          
+          
             </p>
           </Col>
         </Row>
