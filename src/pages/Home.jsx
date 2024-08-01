@@ -27,7 +27,9 @@ const Home = () => {
   }, []);
 
   return (
+    
     <div className='bg-div'>
+
       <div className='bg-light '>
        
           <h1 style={{ textAlign: 'center', padding: 20, fontSize:80 }} className='text-success'>Blog</h1>
@@ -68,14 +70,16 @@ const Home = () => {
           </Col>
         </Row>
         
-        <Row className="d-flex justify-content-center cards-container  py-4 mx-5" md={12} >
-          {cardData.map((card, index) => (
-            <CardDetails key={index} card={card} index={index} />
-          ))}
-        </Row>
-        <Row>
-          <WorkDetail/>
-        </Row>
+        <Row className="d-flex justify-content-center py-4 mx-5">
+      {cardData.map((card, index) => (
+        <Col xs={12} sm={6} md={4} lg={3} key={index} className="mb-4">
+          <CardDetails card={card} index={index} />
+        </Col>
+      ))}
+        <WorkDetail/>
+    </Row>
+        
+       
       </div>
     </div>
   );
