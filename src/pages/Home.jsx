@@ -5,6 +5,7 @@ import '../component/Header.jsx';
 import '../component/Footer.jsx';
 import './Page.css';
 import WorkDetail from './WorkDetail.jsx';
+import About from './About.jsx';
 
 const Home = () => {
   const [cardData, setCardData] = useState([]);
@@ -37,6 +38,7 @@ const Home = () => {
           </Col>
           <Col xs={6} md={3}>
             <Image src='../profilepic.JPG' className='img-fluid img' alt='profilepic' />
+            <About/>
           </Col>
         </Row>
         <Row className="justify-content-center align-items-center py-2 mx-5">
