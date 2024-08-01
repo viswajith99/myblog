@@ -7,7 +7,7 @@ const WorkDetail = () => {
             <h3 className='work-h4 my-4'> MyWorks</h3>
             <Row className='d-flex mx-5' >
 
-                <Col md={6}  className='px-4 '>
+                <Col xs={12} sm={6} md={4} lg={3} className='px-4 '>
                     <h4> HTML,CSS,Bootstrap & Javascript Project</h4>
                     <ListGroup className='bg my-4'>
                         <ListGroup.Item action variant="info" ><h5>Portfolio Website</h5></ListGroup.Item>

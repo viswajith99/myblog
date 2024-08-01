@@ -35,10 +35,10 @@ const Home = () => {
           <h1 style={{ textAlign: 'center', padding: 20, fontSize:80 }} className='text-success'>Blog</h1>
         
         <Row>
-          <Col md={8} className='text-align '>
+          <Col xs={12} md={8} className='text-align '>
             <p className='animated-text text-success font-weight'>Welcome To My Blog</p>
           </Col>
-          <Col xs={6} md={3}>
+          <Col xs={12} md={3}>
             <Image src='../profilepic.JPG' className='img-fluid img' alt='profilepic' />
             <About/>
           </Col>
