@@ -1,45 +1,33 @@
-import React from 'react'
-import { Col, ListGroup, Row } from 'react-bootstrap'
+import React from 'react';
+import { ListGroup, Row, Col } from 'react-bootstrap';
 
 const WorkDetail = () => {
     return (
         <div>
-            <h3 className='work-h4 my-4'> MyWorks</h3>
-            <Row className='d-flex mx-5' >
-
-                <Col xs={12} sm={12}  className='px-4 '>
-                    <h4> HTML,CSS,Bootstrap & Javascript Project</h4>
+            <h3 className='work-h4 my-4 text-center'>My Works</h3>
+            <Row className='mx-3 mx-md-5'>
+                <Col xs={12} md={6} className='px-3'>
+                    <h4>HTML, CSS, Bootstrap & JavaScript Projects</h4>
                     <ListGroup className='bg my-4'>
-                        <ListGroup.Item action variant="info" ><h5>Portfolio Website</h5></ListGroup.Item>
+                        <ListGroup.Item action variant="info"><h5>Portfolio Website</h5></ListGroup.Item>
                         <ListGroup.Item action variant="info"><h5>Indian Express Newspaper</h5></ListGroup.Item>
-                        <ListGroup.Item action variant="info"><h5>Chessboard </h5> </ListGroup.Item>
-                        <ListGroup.Item action variant="info"><h5>Tudo App</h5></ListGroup.Item>
+                        <ListGroup.Item action variant="info"><h5>Chessboard</h5></ListGroup.Item>
+                        <ListGroup.Item action variant="info"><h5>Todo App</h5></ListGroup.Item>
                     </ListGroup>
-
-
                 </Col>
-                <Col xs={12} sm={12} className='my-4'>
-                    <h4> React Js ,Express Js & Mongo Db</h4>
+                <Col xs={12} md={6} className='px-3'>
+                    <h4>React.js, Express.js & MongoDB Projects</h4>
                     <ListGroup>
-                        <ListGroup.Item action variant="info"><h5>Portfolio Website using Reactjs</h5></ListGroup.Item>
+                        <ListGroup.Item action variant="info"><h5>Portfolio Website using React.js</h5></ListGroup.Item>
                         <ListGroup.Item action variant="info"><h5>Blog</h5></ListGroup.Item>
-                        <ListGroup.Item action variant="info"><h5>Bulb using React Js</h5> </ListGroup.Item>
-                        <ListGroup.Item action variant="info"><h5>Product App using React js </h5></ListGroup.Item>
-                        <ListGroup.Item action variant="info"><h5>Ecommerce Appjs</h5> </ListGroup.Item>
-
+                        <ListGroup.Item action variant="info"><h5>Bulb using React.js</h5></ListGroup.Item>
+                        <ListGroup.Item action variant="info"><h5>Product App using React.js</h5></ListGroup.Item>
+                        <ListGroup.Item action variant="info"><h5>Ecommerce App</h5></ListGroup.Item>
                     </ListGroup>
-                    </Col>
-
-
-
-
+                </Col>
             </Row>
         </div>
-
-
-
-
-    )
+    );
 }
 
-export default WorkDetail
+export default WorkDetail;
