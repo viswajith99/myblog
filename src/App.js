@@ -6,6 +6,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './component/Header';
 import Footer from './component/Footer';
 import SignUp from './pages/SignUp';
+import Login from './pages/Login';
+
 
 
 
@@ -19,7 +21,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/signup" element={<SignUp />} />
-         
+          <Route path="/login" element={<Login />} />
          
          
         </Routes>
