@@ -35,7 +35,7 @@ const SignUp = () => {
         <Col md={6} lg={4}>
           <h2 className="text-center mb-4">Sign Up</h2>
           <Form noValidate validated={validated} onSubmit={submitFn}>
-            <Form.Group className="mb-3" controlId="formBasicName">
+            <Form.Group className="mb-3" controlId="name">
               <Form.Label>Name</Form.Label>
               <Form.Control type="text" name='name' value={form_Data.user}
                 onChange={chngFn}
